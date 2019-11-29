@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Facebook';
+  src: local('./Fonts/FACEBOLF.OTF');
+}
+.headerBlue{
+  max-width: 100%;
+  height: 100px;
+  background-color: dodgerblue;
+}
+
+.facebookP{
+  display: inline-block;
+  max-width: 25%;
+  position: relative;
+  top: -15px;
+  left: 100px;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  font-family: 'Facebook';
+}
+
+.profile{
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  min-width: 200px;
+  float: right;
+  right: 100px;
+  font-weight: bold;
+  color: white;
+}
+
+.profile p{
+  display: inline-block;
+  max-width: 50%;
+  position: relative;
+  left: 30px;
+  text-align: center;
+}
+
+.photo{
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-image: url('https://image.flaticon.com/icons/svg/149/149071.svg');
+  float: right;
+  right: 25px;
+}
+
+
+

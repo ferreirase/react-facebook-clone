@@ -1,0 +1,59 @@
+.post{
+  border-radius: 10px;
+  padding: 5px;
+  margin: 25px 5px;
+  background-color: white;
+}
+
+.post hr{
+  max-width: 95%;
+}
+
+img{
+  position: relative;
+  display: inline-block;
+  left: 10px;
+  height: 75px;
+  width: 75px;
+}
+
+.userInfos{
+  display: inline-block;
+  position: relative;
+  left: 25px;
+  top: -15px;
+  font-weight: bold;
+}
+
+.userInfos small{
+  font-weight: normal;
+  color: grey;
+}
+
+.comment{
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.comment img{
+  position: relative;
+  top: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.comment span{
+  font-weight: bold;
+}
+
+.comment p{
+  display: block;
+  max-width: 80%;
+  position: relative;
+  left: 7%;
+  top: -35px;
+  text-align: justify;
+  font-size: small;
+}
